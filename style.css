@@ -1,0 +1,70 @@
+body {
+    background-color: red;
+}
+#toggleColor {
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    height: 3vh;
+    transition: 0.2s;
+}
+#toggleColor:hover {
+    background-color: rgba(255, 255, 255, 0.5)
+}
+#operator {
+    width: 60%;
+    height: 80vh;
+    margin-left: 250px;
+    margin-top: 60px;
+    border: 4px solid black;
+    box-shadow: 0 0 10px black;
+}
+#headOperator {
+    margin-left: 297px;
+}
+#firstnumber {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin-left: 10px;
+    user-select: none;
+}
+.firstnumber {
+    margin-left: 10px;
+}
+.secondnumber {
+    margin-left: 10px;
+}
+#secondnumber {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin-left: 10px;
+    user-select: none;
+}
+.Operation {
+    margin-left: 10px;
+}
+#Operation {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin-left: 10px;
+    user-select: none;
+}
+#submit {
+    background-color: aqua;
+    border: 2px solid black;
+    cursor: pointer;
+    height: 4vh;
+    margin-left: 10px;
+}
+#submit:hover {
+    filter: brightness(0.7);
+}
+#result {
+    font-size: 50px;
+    color: white;
+    margin-left: 364px;
+}
